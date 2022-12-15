@@ -40,10 +40,10 @@ function Home() {
             </div>
             <img className="grid-image" src={FertilityApp} alt="fertility clinic app" />
           </div>
-          <div className="grid-item">3</div>
-          <div className="grid-item">4</div>
-          <div className="grid-item">5</div>
-          <div className="grid-item">6</div>
+          <div className="grid-item" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>Coming Soon</div>
+          <div className="grid-item" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>Coming Soon</div>
+          <div className="grid-item" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>Coming Soon</div>
+          <div className="grid-item" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>Coming Soon</div>
         </div>
       </section>
       <section id="contact">
