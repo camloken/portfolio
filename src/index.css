@@ -1,6 +1,6 @@
 :root {
   font-family: Nunito Sans, Helvetica, Arial, sans-serif;
-  font-size: 16px;
+  font-size: 17px;
   line-height: 24px;
   font-weight: 500;
 
@@ -15,7 +15,11 @@
   -webkit-text-size-adjust: 100%;
 
   --light-text: #606060;
-  --purple1: #7D6488;
+  --green1: #33aa55;
+  --green2: #658574;
+  --green-grey: #c9d0ca;
+  --purple1: #756d8d; /*#7D6488;*/
+  --red1: #dd3600;
   --teal: #548290;
 }
 
@@ -81,21 +85,9 @@ h5 {
 }
 
 h6 {
-  font-size: 16px;
+  font-size: 17px;
   line-height: 1.6;
 }
-
-.subheader {
-  margin: 50px 0;
-}
-
-.block-text {
-  margin: 15px;
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 1.6;
-}
-
 
 @media (prefers-color-scheme: light) {
   :root {

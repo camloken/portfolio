@@ -1,4 +1,6 @@
 import React from 'react'
+import Zoom from 'react-medium-image-zoom'
+import 'react-medium-image-zoom/dist/styles.css'
 import Mock1 from '../assets/fertility1.svg'
 import Mock2 from '../assets/fertility2.svg'
 import Mock3 from '../assets/fertility3.svg'
@@ -58,7 +60,7 @@ function FertilityClinic() {
 
           <h6>The three main groups that were identified were:</h6>
           <ul>
-            <li>Fertility patients (usually consisting of patient and thier spouse)</li>
+            <li>Fertility patients (usually consisting of the patient and thier spouse)</li>
             <li>Medical Office Assistants or MOA's (coordinating the initial paper work and booking appointments)</li>
             <li>Nurses (providing treatments and care to the patients)</li>
           </ul>
@@ -67,11 +69,11 @@ function FertilityClinic() {
           <h3 className="teal">User Flows</h3>
           <p>I collaborated with the team on how we wanted to build out our user flows. 
             While I was not directly reponsible for creating the flow shown here, I had input
-            on some of the details and we iterated until we got a basic flow.
+            on the details and we iterated until we got a basic flow.
           </p>
         </section>
-        <section className="graphic-block">
-          <img className="fertility-flowchart" src={FertilityFlow} alt="fertility flow chart" />
+        <section className="graphic-block transparent">
+          <Zoom zoomMargin={30}><img className="fertility-flowchart" src={FertilityFlow} alt="fertility flow chart" /></Zoom>
         </section>
         <section className="text-section">
           <h3 className="teal">Design Implementation</h3>
@@ -88,16 +90,16 @@ function FertilityClinic() {
         <section className="graphic-block silver">
           <div className="desktop-grid">
             <div className="desktop-grid-item">
-              <img src={Mock1} alt="Fertility app mock 1" />
+              <Zoom zoomMargin={30}><img src={Mock1} alt="Fertility app mock 1" /></Zoom>
             </div>
             <div className="desktop-grid-item">
-              <img src={Mock2} alt="Fertility app mock 2" />
+              <Zoom zoomMargin={30}><img src={Mock2} alt="Fertility app mock 2" /></Zoom>
             </div>
             <div className="desktop-grid-item">
-              <img src={Mock3} alt="Fertility app mock 3" />
+              <Zoom zoomMargin={30}><img src={Mock3} alt="Fertility app mock 3" /></Zoom>
             </div>
             <div className="desktop-grid-item">
-              <img src={Mock4} alt="Fertility app mock 4" />
+              <Zoom zoomMargin={30}><img src={Mock4} alt="Fertility app mock 4" /></Zoom>
             </div>
             {/* <div className="desktop-grid-item"> */}
             {/*   <img src={Mock5} alt="Fertility app mock 5" /> */}

@@ -1,4 +1,6 @@
 import React from 'react'
+import Zoom from 'react-medium-image-zoom'
+import 'react-medium-image-zoom/dist/styles.css'
 import Flowchart from '../assets/water-meter-app-flowchart.svg'
 import FieldWorker from '../assets/field-worker.png'
 import Manager from '../assets/office-manager.png'
@@ -12,7 +14,7 @@ import Mock6 from '../assets/water-meter6.svg'
 
 function WaterMeterApp() {
   return (
-    <div className="jumbo-page fade-in">
+    <div className="jumbo-page fade-in water-meter-app">
       <div className="jumbo-feature bg-purple1">
         <div className="jumbo-content">
           <div className="jumbo-description">
@@ -21,7 +23,7 @@ function WaterMeterApp() {
               <p>A mobile app for the City of Calgary's water meter management.</p>
             </div>
           </div>
-          <img className="jumbo-image " src={Mock1} alt="water meter mobile app" />
+          <img className="jumbo-image" src={Mock1} alt="water meter mobile app" />
         </div>
       </div>
       <div className="flex-column flex-align-center">
@@ -98,7 +100,9 @@ function WaterMeterApp() {
           </p>
         </section>
         <section className="graphic-block">
-          <img src={Flowchart} alt="water meter app flow chart" />
+          <div className="max-width m-auto ">
+            <Zoom zoomMargin={30}><img src={Flowchart} alt="water meter app flow chart" /></Zoom>
+          </div>
         </section>
         <section className="text-section">
           <h3 className="purple1">Design Implementation</h3>
@@ -116,22 +120,22 @@ function WaterMeterApp() {
         <section className="graphic-block silver">
           <div className="mobile-grid">
             <div className="mobile-grid-item">
-              <img src={Mock1} alt="water meter app mock 1" />
+              <Zoom zoomMargin={30}><img src={Mock1} alt="water meter app mock 1" /></Zoom>
             </div>
             <div className="mobile-grid-item">
-              <img src={Mock2} alt="water meter app mock 2" />
+              <Zoom zoomMargin={30}><img src={Mock2} alt="water meter app mock 2" /></Zoom>
             </div>
             <div className="mobile-grid-item">
-              <img src={Mock3} alt="water meter app mock 3" />
+              <Zoom zoomMargin={30}><img src={Mock3} alt="water meter app mock 3" /></Zoom>
             </div>
             <div className="mobile-grid-item">
-              <img src={Mock4} alt="water meter app mock 4" />
+              <Zoom zoomMargin={30}><img src={Mock4} alt="water meter app mock 4" /></Zoom>
             </div>
             <div className="mobile-grid-item">
-              <img src={Mock5} alt="water meter app mock 5" />
+              <Zoom zoomMargin={30}><img src={Mock5} alt="water meter app mock 5" /></Zoom>
             </div>
             <div className="mobile-grid-item">
-              <img src={Mock6} alt="water meter app mock 6" />
+              <Zoom zoomMargin={30}><img src={Mock6} alt="water meter app mock 6" /></Zoom>
             </div>
           </div>
         </section>

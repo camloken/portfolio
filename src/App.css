@@ -15,6 +15,17 @@
 .teal {
   color: var(--teal);
 }
+.green1 {
+  color: var(--green1);
+}
+
+.green2 {
+  color: var(--green2);
+}
+
+.red1 {
+  color: var(--red1);
+}
 
 .bg-purple1 {
   background-color: var(--purple1);
@@ -24,22 +35,58 @@
   background-color: var(--teal);
 }
 
-.mb-0 {
-  margin-bottom: 0;
+.bg-green2 {
+  background-color: var(--green2);
 }
 
-.mb-100 {
-  margin-bottom: 100px;
+.m-auto {
+  margin: auto;
+}
+
+.m-0 {
+  margin: 0;
 }
 
 .mt-0 {
   margin-top: 0;
 }
 
+.mt-5 {
+  margin-top: 5px;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.mt-50 {
+  margin-top: 50px;
+}
+
+.mb-0 {
+  margin-bottom: 0;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.mb-40 {
+  margin-bottom: 40px;
+}
+
+.mb-100 {
+  margin-bottom: 100px;
+}
+
 .max-width {
   width: 100%;
   max-width: 1280px;
-  padding: 0 60px;
+  padding: 0 50px;
 }
 
 .max-width-800 {
@@ -47,6 +94,10 @@
   max-width: 800px;
   margin: 40px;
   padding: 50px 0;
+}
+
+.flex-1 {
+  flex: 1;
 }
 
 .flex-column {
@@ -67,8 +118,57 @@
   align-items: center;
 }
 
+.flex-justify-end {
+  justify-content: flex-end;
+}
+
+.gap-20 {
+  gap:20px;
+}
+
 .text-center {
   text-align: center;
+}
+
+.subheader {
+  display: inline-block;
+  padding: 30px 0 3px;
+  margin: 0 0 60px;
+  font-size: 19px;
+  font-weight: 800;
+  color: #555;
+  border-bottom: 3px solid #78ace7;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+.block-text {
+  margin: 15px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+
+.primary-btn,
+.contact-form .primary-btn {
+  appearance: none;
+  text-align: center;
+  width: 140px;
+  border: 0;
+  border-radius: 4px;
+  background-color: #3880d2;
+  height: 40px;
+  color: #fff;
+  font-size: 16px;
+}
+
+.primary-btn:hover {
+  background-color: #306cb0;
+}
+
+.primary-btn:disabled {
+  background-color: #789;
 }
 
 @keyframes fadeIn {
@@ -76,11 +176,29 @@
   100% { opacity: 1; transform: scale(1)}
 }
 
-.fade-in {
-  animation: fadeIn 0.5s ease;
+@keyframes popUp {
+  0%   { opacity: 0; transform: translateY(8px)}
+  100% { opacity: 1; transform: translateY(0)}
 }
 
-/* NAVIGATION */
+@keyframes spin {
+  0%   { transform: rotate(0deg)}
+  100% { transform: rotate(360deg)}
+}
+
+.fade-in {
+  animation: fadeIn 0.8s ease;
+}
+
+.pop-up {
+  animation: popUp 0.7s ease;
+}
+
+.spin {
+  animation: spin 0.7s infinite linear;
+}
+
+/* NAVIGATION */  
 
 .logo {
   width: 160px;
@@ -115,7 +233,8 @@
 }
 
 .nav a {
-  color: #444;
+  color: #777;
+  font-weight: 600;
 }
 
 .nav a:hover {
@@ -158,7 +277,7 @@
   display: flex;
   align-items: flex-end;
   color: #fff;
-  background-color: #888;
+  background-color: #89a;
   border-radius: 8px;
   height: 360px;
   box-shadow: 0 1px 3px rgb(0, 0, 0, 0.15);
@@ -181,12 +300,13 @@
 }
 
 .grid-item-description {
-  padding: 30px;
+  padding: 30px 40px 30px;
   min-width: 50%;
 }
 
 .grid-image {
   align-self: flex-start;
+  filter: drop-shadow(0 0 15px rgba(0, 0, 0, 0.2));
 }
 
 .grid-item.fertility-app {
@@ -196,6 +316,10 @@
 .water-meter-app .grid-image {
   padding: 30px 0 0 20px;
   width: 45%;
+}
+
+.water-meter-app .jumbo-content {
+  max-width: 900px;
 }
 
 .fertility-app .jumbo-content {
@@ -215,8 +339,24 @@
 }
 
 .fertility-app .grid-image {
-  padding: 30px 0 0;
+  margin-top: 30px;
   height: 130%;
+}
+
+.grid-item.muse-app {
+  background-color: var(--green2);
+}
+
+.muse-app .grid-image {
+  border-radius: 4px;
+  margin-top: 30px;
+  height: 130%;
+}
+
+.muse-app .jumbo-image {
+  padding-top: 40px;
+  height: auto;
+  margin-bottom: -30px;
 }
 
 .graphic-block .fertility-flowchart {
@@ -227,7 +367,7 @@
   
 }
 
-.water-meter-app {
+.grid-item.water-meter-app {
   background-color: var(--purple1);
 }
 
@@ -262,13 +402,13 @@
 }
 
 .jumbo-content {
-  display: flex;
-  align-items: stretch;
-  margin: 0 60px;
-  width: 100%;
-  max-width: 800px;
-  height: 100%;
-  overflow: hidden;
+    display: flex;
+    padding: 0 50px;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1280px;
+    height: 100%;
+    overflow: hidden;
 }
 
 .jumbo-image {
@@ -381,7 +521,8 @@
 }
 
 .desktop-grid-item img {
-  max-height: 550px;
+  width: 100%;
+  border-radius: 3px;
   filter: drop-shadow(0 3px 6px #89A);
 }
 
@@ -394,26 +535,106 @@
   text-align: center;
   margin-bottom: 50px;
   padding: 50px;
+  box-shadow: inset 0 0 20px rgb(0, 0, 0, 0.05);
+}
+
+.graphic-block.transparent {
+  box-shadow: none;
 }
 
 .graphic-block.silver {
   background-color: #d5dce7;
-  box-shadow: inset 0 0 20px rgb(0, 0, 0, 0.05)
 }
 
 .graphic-block.purple-haze {
   background-color: #d8d8e2;
-  box-shadow: inset 0 0 20px rgb(0, 0, 0, 0.05)
 }
 
 .graphic-block.beige {
   background-color: #e0e7e7;
-  box-shadow: inset 0 0 20px rgb(0, 0, 0, 0.05)
 }
+
+.graphic-block.green-grey {
+  background-color: var(--green-grey);
+}
+
 
 .graphic-block > img {
   max-width: 1100px;
 /*  padding: 30px 50px;*/
+}
+
+.contact-form input,
+.contact-form textarea {
+  appearance: none;
+  background-color: #f4f6f7;
+  border: 1px solid #aaa;
+  border-radius: 2px;
+  padding: 10px;
+  font-size: 16px;
+  font-family: Nunito, Arial, sans-serif;
+}
+
+.contact-form textarea {
+  max-width: 100%;
+  min-width: 100%;
+  min-height: 80px;
+  height: 140px;
+}
+
+.contact-form form {
+  background: #fff;
+  border-radius: 8px;
+  padding: 50px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.10);
+}
+
+.contact-form label {
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.status-message {
+  display: flex;
+  align-items: center;
+  padding-right: 30px;
+}
+
+.status-message > svg {
+  padding-right: 5px;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 40px;
+}
+
+.progress-bar {
+  display: flex;
+  flex-direction: column;
+  font-weight: 700;
+}
+
+.progress-bar-bg {
+  flex: 1;
+  margin-right: 10px;
+  height: 12px;
+  background-color: rgba(0, 0, 0, 0.15);
+  border-radius: 6px;
+}
+
+.progress-color {
+  background-color: #a29cb6;
+  border-radius: 6px;
+  height: 100%;
+}
+
+.progress-title {
+  align-self: flex-start;
+  margin: 10px 0 0 2px;
+  font-size: 18px;
+  color: #606060;
 }
 
 .not-found {
@@ -424,3 +645,8 @@
   justify-content: center;
 }
 
+/*Image Modal Overwrites*/
+
+[data-rmiz-modal-img] {
+  border-radius: 4px;
+}
