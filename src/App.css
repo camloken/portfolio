@@ -15,6 +15,15 @@
 .teal {
   color: var(--teal);
 }
+
+.blue1 {
+  color: var(--blue1);
+}
+
+.blueish {
+  color: var(--blueish);
+}
+
 .green1 {
   color: var(--green1);
 }
@@ -33,6 +42,14 @@
 
 .bg-teal {
   background-color: var(--teal);
+}
+
+.bg-blue1 {
+  background-color: var(--blue1);
+}
+
+.bg-blueish {
+  background-color: var(--blueish);
 }
 
 .bg-green2 {
@@ -89,11 +106,10 @@
   padding: 0 50px;
 }
 
-.max-width-800 {
+.max-width-800,
+.jumbo-content.max-width-800 {
   width: 100%;
   max-width: 800px;
-  margin: 40px;
-  padding: 50px 0;
 }
 
 .flex-1 {
@@ -112,6 +128,15 @@
 
 .flex-stretch {
   align-self: stretch;
+}
+
+.flex-justify-stretch {
+  justify-items: stretch;
+}
+
+.flex-space-between {
+  justify-content: space-between;
+  align-content: space-between;
 }
 
 .flex-align-center {
@@ -313,6 +338,10 @@
   background-color: var(--teal);
 }
 
+.grid-item.secure-mail {
+  background-color: var(--blueish);
+}
+
 .water-meter-app .grid-image {
   padding: 30px 0 0 20px;
   width: 45%;
@@ -343,6 +372,21 @@
   height: 130%;
 }
 
+.secure-mail .grid-image {
+  margin-top: 30px;
+  height: 130%;
+}
+
+.data-manager .grid-image {
+  border-radius: 3px;
+  margin-top: 30px;
+  height: 128%;
+}
+
+.grid-item.data-manager {
+  background-color: #616d7d;
+}
+
 .grid-item.muse-app {
   background-color: var(--green2);
 }
@@ -359,6 +403,10 @@
   margin-bottom: -30px;
 }
 
+.secure-mail .jumbo-image {
+  height: 100%;
+}
+
 .graphic-block .fertility-flowchart {
   padding: 0;
   border-radius: 8px;
@@ -371,11 +419,25 @@
   background-color: var(--purple1);
 }
 
+.chat-app .grid-image {
+  padding: 30px 0 0 20px;
+  width: 45%;
+}
+
+.chat-app .jumbo-image {
+  height: 135%;
+}
+
+.grid-item.chat-app {
+  background-color: var(--blue1);
+}
+
 .grid-button {
   padding: 10px 20px;
   border: 0;
   outline: 0;
-  font-size: 16px;
+  font-size: 14px;
+  font-weight: 600;
   background-color: rgba(255, 255, 255, 0.25);
   color: #fff;
   border-radius: 4px;
@@ -402,13 +464,13 @@
 }
 
 .jumbo-content {
-    display: flex;
-    padding: 0 50px;
-    justify-content: space-between;
-    width: 100%;
-    max-width: 1280px;
-    height: 100%;
-    overflow: hidden;
+  display: flex;
+  padding: 0 50px;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1280px;
+  height: 100%;
+  overflow: hidden;
 }
 
 .jumbo-image {
@@ -594,10 +656,30 @@
   margin-bottom: 5px;
 }
 
+.linkedin {
+  display: flex;
+  align-items: center;
+  color: #606060;
+  font-size: 15px;
+  font-weight: 600;
+  transform: scale(1);
+}
+
+.linkedin svg {
+  margin-right: 10px;
+}
+
+.linkedin:hover svg {
+  transition: all 0.2s ease;
+  transform: scale(1.08);
+}
+
 .status-message {
   display: flex;
   align-items: center;
   padding-right: 30px;
+  font-size: 15px;
+  font-weight: 600;
 }
 
 .status-message > svg {
@@ -649,4 +731,9 @@
 
 [data-rmiz-modal-img] {
   border-radius: 4px;
+}
+
+img[alt^="Secure"] {
+    border-radius: 6px;
+    border: 1px solid #ddd;
 }

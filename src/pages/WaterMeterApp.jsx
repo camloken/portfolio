@@ -31,7 +31,7 @@ function WaterMeterApp() {
           <h3 className="purple1">Project Background</h3>
           <p>The Water Meter App was the first step towards
             moving service workers from paper reporting to a fully mobile app. 
-            The app allowed users to create, submit and leave feedback on their for digital reporting. 
+            The app allowed users to create, submit and leave feedback in their database for digital reporting. 
             Once a report was submitted, managers could then review them in a separate desktop application.
           </p>
           <h6>My Role and Responsibilities:</h6>
@@ -47,17 +47,25 @@ function WaterMeterApp() {
           <h6>Stakeholder discussions were conducted regularly for the purposes of:</h6>
           <ul>
             <li>Gaining insight and understanding from different teams and departments</li>
-            <li>Understanding the technical capabilities and limitations</li>
+            <li>Understanding the technical capabilities and limitations of the app</li>
             <li>Aligning the design with the City of Calgary's brand</li>
           </ul>
         </section>
         <section className="text-section">
           <h3 className="purple1">Persona Development</h3>
-          <p className="mt-0">Before starting the project it was important to identify what types of people would 
-            be using the app. While this may seem straight forward at first glance it became clearer 
+          <p className="mt-0">Before starting the project, it was important to identify what types of people would 
+            be using the app. While this may seem straight forward, it became clear 
             after multiple stakeholder discussions that field workers were not the only ones that 
-            would be using the app. 
+            would be using the app. The personas below were recreated from memory and are simply 
+            intended to provide a quick overview.
           </p>
+
+          <h6>There were three types of users that were identified:</h6>
+          <ul>
+            <li>Field workers (water meter workers in the field on various job sites)</li>
+            <li>Waterworks managers (mostly in the office but occasionally on-site)</li>
+            <li>Customer support representatives (in office providing support for field workers and customers)</li>
+          </ul>
         </section>
         <section className="graphic-block purple-haze">
           <div className="persona-grid">
@@ -65,7 +73,7 @@ function WaterMeterApp() {
               <img src={FieldWorker} alt="Field Worker" />
               <h5>Jonathan</h5>
               <h6>Field Worker (Primary User)</h6>
-              <p>Johnathan is on the go all day and visits multiple job sites. 
+              <p>Johnathan is in the field all day and visits multiple job sites. 
                 He carries a work mobile phone with him.
               </p>
             </div>
@@ -73,7 +81,7 @@ function WaterMeterApp() {
               <img src={Manager} alt="Manager" />
               <h5>Terry</h5>
               <h6>Waterworks Manager</h6>
-              <p>Terry works at his computer in the office analyzing field reports. Once in a while he will visit job sites.</p>
+              <p>Terry works at his computer in the office analyzing field reports. Once in a while, he will visit job sites.</p>
             </div>
             <div className="persona-grid-item">
               <img src={CustomerRep} alt="Customer Service Rep" />
@@ -83,23 +91,16 @@ function WaterMeterApp() {
             </div>
           </div>
         </section>
-        <section className="text-section">
 
-          <h6>There were actually three groups of users that were identified:</h6>
-          <ul>
-            <li>Field workers (water meter workers in the field on various job sites)</li>
-            <li>Waterworks managers (working primarily in the office)</li>
-            <li>Customer support representatives (in office providing support for field workers and customers)</li>
-          </ul>
-        </section>
         <section className="text-section">
           <h3 className="purple1">User Flows</h3>
-          <p>After accompanying a field worker with visits to multiple job sites, it became clear that
+          <p>After accompanying a field worker on visits to multiple job sites, it was evident that
             they followed a very structured work process. Certain criteria needed to be met and tasks were done in 
-            a linear order before sign off could occur. A user flow was then created to reflect that process.
+            a chronological order before sign off could occur. A user flow was then created to reflect that process.
+            The user flow below was recreated for illustrative purposes.
           </p>
         </section>
-        <section className="graphic-block">
+        <section className="graphic-block transparent">
           <div className="max-width m-auto ">
             <Zoom zoomMargin={30}><img src={Flowchart} alt="water meter app flow chart" /></Zoom>
           </div>
@@ -108,7 +109,7 @@ function WaterMeterApp() {
           <h3 className="purple1">Design Implementation</h3>
           <p>After gaining insights from various discussions with the stakeholders, we decided that the app
             would be designed only for mobile use. Once the personas and main features of the app were identified, 
-            design work could now begin.
+            design work could begin.
           </p>
           <h6>I proceeded to work on:</h6>
           <ul>
@@ -142,7 +143,7 @@ function WaterMeterApp() {
         <section className="text-section mb-100">
           <h3 className="purple1">Post Production</h3>
           <p>I've worked with the City of Calgary in various contract roles in the past. This one was both 
-            challenging and rewarding. After handing off the deliverables as part of my contract, I talked to a former 
+            challenging and rewarding. After handing off my contract deliverables, I talked to a former 
             City colleague years later and he mentioned that the app was completed and was executed very well.
           </p>
         </section>

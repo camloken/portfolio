@@ -3,6 +3,7 @@ import emailjs from 'emailjs-com'
 import ExclamationCircle from './assets/ExclamationCircle'
 import CheckCircle from './assets/CheckCircle'
 import Loading from './assets/Loading'
+import LinkedIn from './assets/LinkedIn'
 
 export default function ContactForm() {
   const [name, setName] = useState('')
@@ -12,8 +13,6 @@ export default function ContactForm() {
   const [sendingMessage, setSendingMessage] = useState(false)
   const [messageStatus, setMessageStatus] = useState(null)
   const form = useRef()
-
-
 
   const messageStatusGood = (
     <div className="status-message pop-up">
@@ -88,15 +87,26 @@ export default function ContactForm() {
             required
           />
         </div>
-        <div className="flex-row flex-justify-end mt-50">
-          {messageStatus}
-          <button
-            className="primary-btn"
-            type="submit"
-            disabled={sendingMessage}
+        <div className="flex-row flex-space-between mt-50">
+          <a
+            className="linkedin"
+            href="https://linkedin.com/in/camloken"
+            target="_blank"
+            rel="noreferrer"
           >
-            {sendingMessage ? spinner : 'Send'}
-          </button>
+            <LinkedIn size={34} color="#3880d2" />
+            <span>See my LinkedIn page</span>
+          </a>
+          <div className="flex-row">
+            {messageStatus}
+            <button
+              className="primary-btn"
+              type="submit"
+              disabled={sendingMessage}
+            >
+              {sendingMessage ? spinner : 'Send'}
+            </button>
+          </div>
         </div>
       </form>
     </section>

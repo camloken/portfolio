@@ -27,8 +27,8 @@ function FertilityClinic() {
         <section className="text-section">
           <h3 className="teal">Project Background</h3>
           <p>For privacy reasons, the name and logo of this company has been changed to protect the identity of
-            the client. This app was the first step towards moving much of the paperwork and scheduling of 
-            the Fertility clinic to an online system.
+            the client. This app was the first step towards moving the paperwork and patient scheduling 
+            to an online system for the Fertility Clinic.
           </p>
           <h6>My Role and Responsibilities:</h6>
           <ul>
@@ -43,14 +43,14 @@ function FertilityClinic() {
           <h6>Stakeholder discussions were conducted regularly with the Fertility Clinic in order to:</h6>
           <ul>
             <li>Gain insight and understanding from different users within the clinic</li>
-            <li>Understand the technical capabilities and limitations</li>
-            <li>Design with the clinics need for patient privacy and HIPAA compliance in mind</li>
+            <li>Understand the technical capabilities and limitations of the app</li>
+            <li>Uphold the clinic's requirements for patient privacy and HIPAA compliance within the design</li>
           </ul>
         </section>
         <section className="text-section">
           <h3 className="teal">User Stories</h3>
-          <p className="mt-0">After several meetings, the team identified the main people the would be 
-            using the app. As a group we started to create some user stories based on the needs of different individuals. 
+          <p className="mt-0">After several meetings, the team identified the main users that would be 
+            utilizing the app. As a group we created user stories based on the needs of different individuals. 
           </p>
         </section>
         <section className="graphic-block beige">
@@ -60,7 +60,7 @@ function FertilityClinic() {
 
           <h6>The three main groups that were identified were:</h6>
           <ul>
-            <li>Fertility patients (usually consisting of the patient and thier spouse)</li>
+            <li>Fertility patients (usually consisting of the patient and their spouse)</li>
             <li>Medical Office Assistants or MOA's (coordinating the initial paper work and booking appointments)</li>
             <li>Nurses (providing treatments and care to the patients)</li>
           </ul>
@@ -68,8 +68,8 @@ function FertilityClinic() {
         <section className="text-section">
           <h3 className="teal">User Flows</h3>
           <p>I collaborated with the team on how we wanted to build out our user flows. 
-            While I was not directly reponsible for creating the flow shown here, I had input
-            on the details and we iterated until we got a basic flow.
+            While I was not directly responsible for creating the flow shown here, I had significant input
+            on the details and we reiterated the design until we got this basic flow.
           </p>
         </section>
         <section className="graphic-block transparent">
@@ -77,7 +77,7 @@ function FertilityClinic() {
         </section>
         <section className="text-section">
           <h3 className="teal">Design Implementation</h3>
-          <p>After gaining insights from various discussions with the stakeholders, we decided that the app
+          <p>After gaining insights from stakeholders discussions, we decided that the app
             would be designed for tablets and desktop. Once the user stories were defined, 
             the design work could begin.
           </p>
@@ -108,9 +108,9 @@ function FertilityClinic() {
         </section>
         <section className="text-section mb-100">
           <h3 className="teal">Final Thoughts</h3>
-          <p>This app never actually reached production as the stakeholders never consulted the head of the clinic. 
-            This was a major oversight of the company that I worked with at the time. Never the less, was an excellent
-            learning opportunity for everyone involved.
+          <p>This app only ever reached the prototype stage as the Fertility Clinic decided to prioritize
+            other clinic requirements. Nevertheless, the research and design of this app was an excellent
+            learning opportunity.
           </p>
         </section>
       </div>

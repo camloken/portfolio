@@ -26,8 +26,9 @@ function MuseApp() {
         <section className="text-section">
           <h3 className="green2">Project Background</h3>
           <p>As part of my time at Enverus, I designed several prototypes for various products that went into production. 
-            Muse was one such app that started with a developers prototype and later required input from the UX team. 
-            After much collaboration I was able to guide the design by refactoring the existing layouts they had.
+            Muse was an app started with a developer's concept, that then required input from the UX team. 
+            After much collaboration, I was able to gain a better understanding of what the team was trying to accomplish 
+            and refine the design to accomodate the users needs.
           </p>
           <h6>My role and responsibilities included:</h6>
           <ul>
@@ -48,9 +49,9 @@ function MuseApp() {
 
         <section className="text-section">
           <h3 className="green2">Design Refactoring</h3>
-          <p>The design work required was such that the developers were reusing many components from existing apps. 
+          <p>The developers were reusing many components from existing apps which impacted the look and feel of the design. 
             While this can save a lot of time and money, much of the existing design looked dated and not on brand. 
-            Improvements were needed badly.
+            Updates were needed to improve the style and usability.
           </p>
           <h6>I proceeded to work on:</h6>
           <ul>
@@ -83,9 +84,8 @@ function MuseApp() {
         </section>
         <section className="text-section mb-100">
           <h3 className="green2">Final Thoughts</h3>
-          <p>I have seen many apps start out on the wrong foot that need a complete redesign. 
-            However, I was pleasently surprised to see that much of the interface in this case was quite intuative.
-            It was just a matter of a few tweaks here and there, with some adjustments to the styles and layout.
+          <p>I have seen many apps start out on the wrong foot, resulting in the need for a complete redesign. 
+            However in this case, much of the interface was fairly intuitive. I made adjustments to the styles and layout.
             The product managers and developers were very receptive to the new design and it was a major improvement 
             over what they had previously.
           </p>
