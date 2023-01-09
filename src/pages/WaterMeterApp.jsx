@@ -34,7 +34,7 @@ function WaterMeterApp() {
             The app allowed users to create, submit and leave feedback in their database for digital reporting. 
             Once a report was submitted, managers could then review them in a separate desktop application.
           </p>
-          <h6>My Role and Responsibilities:</h6>
+          <h6>My role and responsibilities:</h6>
           <ul>
             <li>Stakeholder meetings</li>
             <li>Persona development</li>

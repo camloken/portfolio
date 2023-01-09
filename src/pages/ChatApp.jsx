@@ -28,8 +28,8 @@ function ChatApp() {
       <div className="flex-column flex-align-center">
         <section className="text-section">
           <h3 className="blue1">Project Background</h3>
-          <p>The Secure Chat app was created in response to a need where healthcare practitioners needed 
-            a quick way to send text messages. The chat app allowed subscribers of Secure-Mail to quickly
+          <p>In response to a need identified by healthcare practitioners, the Secure Chat app was created to provide
+            medical professionals a secure means of communication. The chat app allowed subscribers of Secure-Mail to quickly
             collaborate with other health care professionals. Chat channels focused primarily on patient treatments. 
           </p>
           <h6>My Role and Responsibilities:</h6>
@@ -44,14 +44,14 @@ function ChatApp() {
           <h6>Stakeholder meetings were conducted within the company in order to:</h6>
           <ul>
             <li>Gain insights and understanding about various user types</li>
-            <li>Prioratize which features to include for a minimum viable product</li>
+            <li>Prioritize which features to include for a minimum viable product</li>
             <li>Align the design with the company brand (BrightSquid)</li>
           </ul>
         </section>
         <section className="text-section">
           <h3 className="blue1">Design Implementation</h3>
-          <p>After gaining insights from the company stakeholders, we decided that the app would be 
-            designed initially for mobile use. Doctors and healthcare practitioners would be the main users.
+          <p>After gaining insight from the company stakeholders, we decided that the app would be 
+            initially designed for mobile use. Doctors and healthcare practitioners would be the main users.
             The primary features of the app were then prioritized and design work began.
           </p>
           <h6>I proceeded to work on:</h6>

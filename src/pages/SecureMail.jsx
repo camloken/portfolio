@@ -27,17 +27,17 @@ function SecureMail() {
       <div className="flex-column flex-align-center">
         <section className="text-section">
           <h3 className="blueish">Project Background</h3>
-          <p>I worked for a company called Brightquid who's primary focus was a product called Secure-Mail 
-            (later named Secure Health Exchange). A major issue in the healthcare industry is patient privacy,
+          <p>I worked for a company called BrightSquid who's primary focus was a product called Secure-Mail 
+            (later named Secure Health Exchange). A major concern in the healthcare industry is patient privacy,
             but much more than that, HIPAA compliance is a requirement. Gmail does not comply with these standards
-            so many healthcare practitioners are unable to easily comunicate via email. Secure Health Exchange offered
+            so many healthcare practitioners are unable to easily communicate via email. Secure Health Exchange offered
             a way for practitioners to communicate and share documents in a safe and compliant manner. 
           </p>
           <h6>My role and responsibilities on this project included:</h6>
           <ul>
             <li>Team meetings and collaboration</li>
-            <li>Provide simple user flow diagrams</li>
-            <li>Analylize research in order to improve design usablilty</li>
+            <li>Provide user flow diagrams</li>
+            <li>Analyze research in order to improve design usability</li>
             <li>Create wireframes and high fidelity mockups</li>
             <li>Provide frontend code and develop features for the app</li>
           </ul>
@@ -46,7 +46,7 @@ function SecureMail() {
           <h3 className="blueish">Team Meetings</h3>
           <h6>Team meetings were held regularly in order to:</h6>
           <ul>
-            <li>Generate new ideas for features and improvements of the app</li>
+            <li>Generate new ideas for features and improvements within the app</li>
             <li>Collaborate with stakeholders on feature prioritization</li>
             <li>Understand the technical restrictions and capabilities of the product</li>
             <li>Align the design according to the BrightSquid brand</li>
@@ -55,16 +55,16 @@ function SecureMail() {
 
         <section className="text-section">
           <h3 className="blueish">Design Refactoring</h3>
-          <p>The intitial product had an inconsistent design style and areas of the app were unintuative. Various
+          <p>The intitial product had an inconsistent look and feel, and areas of the app were not intuitive. Various
             components needed to be refactored so that both the style and behaviour aligned throughout the app.
-            This was an iterative process that happened over time and slowly the product began to improve.
+            This was an iterative process that happened over time, and gradually the product began to improve.
           </p>
           <h6>Some of the things I worked on were:</h6>
           <ul>
-            <li>Redesigning the layout and interface to make it more intuative</li>
-            <li>Creating a consistent look and feel for the features and components within the app</li>
-            <li>Providing high fidelity mockups to illustrate the new look and feel of the app</li>
-            <li>Iteratively making small improvements to the app over time</li>
+            <li>Redesigning the layout and interface to make it more intuitive</li>
+            <li>Ensuring the features and components within the app were consistent</li>
+            <li>Making small improvements to the app over time</li>
+            <li>Providing high fidelity mockups to illustrate the look and feel of the app</li>
           </ul>
         </section>
         <section className="graphic-block silver">
@@ -97,10 +97,9 @@ function SecureMail() {
         </section>
         <section className="text-section mb-100">
           <h3 className="blueish">Final Thoughts</h3>
-          <p>I enjoyed my time at BrightSquid as it gave me an opportunity to problem solve both creatively 
-            and iteratively. The product not only served as just another email app, but as an exchange 
-            where healthcare professionals could network with each other in a secure and compliant way.
-            These were the last high fidelity mockups that I provided them with.
+          <p>I enjoyed my time at BrightSquid as it gave me an opportunity to solve problems in a creative 
+            and iterative manner. The product not only served as an email app, but also as an exchange 
+            in which healthcare professionals could network with each other in a secure and compliant way.
           </p>
         </section>
       </div>
