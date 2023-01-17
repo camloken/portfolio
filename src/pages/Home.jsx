@@ -5,7 +5,7 @@ import FertilityApp from '../assets/fertility3.svg'
 import MuseApp from '../assets/muse5.png'
 import ChatApp from '../assets/chat1.png'
 import SecureMail from '../assets/securemail3.svg'
-import DSM from '../assets/dsm4.png'
+import DSM from '../assets/dsm1.png'
 import ContactForm from '../ContactForm'
 import ProgressBar from '../ProgressBar'
 
@@ -88,11 +88,12 @@ function Home() {
           <div
             role="presentation"
             className="grid-item data-manager"
+            onClick={() => navigate('/prism-data-manager')}
           >
             <div className="grid-item-description">
               <h4>Prism Data Manager</h4>
-              <p>An interface for creating custom data sets.</p>
-              <button className="grid-button">Coming Soon</button>
+              <p>An interface for creating custom energy data sets.</p>
+              <button className="grid-button">View Project</button>
             </div>
             <img className="grid-image" src={DSM} alt="dsm interface" />
           </div>

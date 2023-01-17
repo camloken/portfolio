@@ -14,6 +14,7 @@ import FertilityApp from './pages/FertilityApp'
 import MuseApp from './pages/MuseApp'
 import ChatApp from './pages/ChatApp'
 import SecureMail from './pages/SecureMail'
+import DSM from './pages/DSM'
 import NotFound from './pages/NotFound'
 import ScrollToTop from './ScrollToTop'
 import './App.css'
@@ -41,6 +42,7 @@ function App() {
           <Route path="/muse-app" element={<MuseApp />} />
           <Route path="/chat-app" element={<ChatApp />} />
           <Route path="/secure-mail" element={<SecureMail />} />
+          <Route path="/prism-data-manager" element={<DSM />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </div>

@@ -36,6 +36,10 @@
   color: var(--red1);
 }
 
+.steel-grey {
+  color: var(--steel-grey);
+}
+
 .bg-purple1 {
   background-color: var(--purple1);
 }
@@ -54,6 +58,10 @@
 
 .bg-green2 {
   background-color: var(--green2);
+}
+
+.bg-steel-grey {
+  background-color: var(--steel-grey);
 }
 
 .m-auto {
@@ -317,6 +325,7 @@
 
 .grid-item p {
   margin: 0 0 30px;
+  max-width: 300px;
 }
 
 .grid-item:hover {
@@ -327,6 +336,7 @@
 .grid-item-description {
   padding: 30px 40px 30px;
   min-width: 50%;
+  width: 100%;
 }
 
 .grid-image {
@@ -380,11 +390,17 @@
 .data-manager .grid-image {
   border-radius: 3px;
   margin-top: 30px;
-  height: 128%;
+  height: 119%;
 }
 
 .grid-item.data-manager {
-  background-color: #616d7d;
+  background-color: var(--steel-grey);
+}
+
+.prism-data-manager .jumbo-image {
+  border-radius: 4px;
+  margin-top: 30px;
+  height: calc(100% - 20px);
 }
 
 .grid-item.muse-app {
@@ -411,6 +427,7 @@
   padding: 0;
   border-radius: 8px;
   max-width: 1200px;
+  width: 100%;
   box-shadow: 0 2px 15px rgba(0, 0, 0, 0.15);
   
 }
@@ -570,6 +587,7 @@
 }
 
 .mobile-grid-item img {
+  max-width: 100%;
   max-height: 550px;
   filter: drop-shadow(0 3px 6px #89A);
 }
@@ -725,6 +743,27 @@
   flex: 1;
   align-items: center;
   justify-content: center;
+}
+
+@media (max-width: 992px) {
+  .grid-wrap {
+    grid-template-columns: 1fr;
+  }
+
+  .chat-app .grid-image {
+    height: 150%;
+    width: auto;
+  }
+
+  .muse-app .grid-image {
+    height: 139%;
+    width: auto;
+  }
+
+  .water-meter-app .grid-image {
+    height: 148%;
+    width: auto;
+  }
 }
 
 /*Image Modal Overwrites*/
