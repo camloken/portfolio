@@ -16,7 +16,7 @@
 
   --light-text: #606060;
   --blue1: #3b709a;
-  --blueish: #62a2d9;
+  --purplish: #6e7ea9; /* #62a2d9 */
   --green1: #33aa55;
   --green2: #5e7b6b;
   --green-grey: #c9d0ca;
@@ -24,6 +24,7 @@
   --purple1: #72698d;
   --red1: #dd3600;
   --teal: #477b8a;
+  --grey-green: #697c86;
 }
 
 a {

@@ -13,7 +13,7 @@ import Mock8 from '../assets/securemail8.svg'
 function SecureMail() {
   return (
     <div className="jumbo-page fade-in secure-mail">
-      <div className="jumbo-feature bg-blueish">
+      <div className="jumbo-feature bg-purplish">
         <div className="jumbo-content">
           <div className="jumbo-description">
             <div>
@@ -26,7 +26,7 @@ function SecureMail() {
       </div>
       <div className="flex-column flex-align-center">
         <section className="text-section">
-          <h3 className="blueish">Project Background</h3>
+          <h3 className="purplish">Project Background</h3>
           <p>I worked for a company called BrightSquid who's primary focus was a product called Secure-Mail 
             (later named Secure Health Exchange). A major concern in the healthcare industry is patient privacy,
             but much more than that, HIPAA compliance is a requirement. Gmail does not comply with these standards
@@ -43,7 +43,7 @@ function SecureMail() {
           </ul>
         </section>
         <section className="text-section">
-          <h3 className="blueish">Team Meetings</h3>
+          <h3 className="purplish">Team Meetings</h3>
           <h6>Team meetings were held regularly in order to:</h6>
           <ul>
             <li>Generate new ideas for features and improvements within the app</li>
@@ -54,7 +54,7 @@ function SecureMail() {
         </section>
 
         <section className="text-section">
-          <h3 className="blueish">Design Refactoring</h3>
+          <h3 className="purplish">Design Refactoring</h3>
           <p>The intitial product had an inconsistent look and feel, and areas of the app were not intuitive. Various
             components needed to be refactored so that both the style and behaviour aligned throughout the app.
             This was an iterative process that happened over time, and gradually the product began to improve.
@@ -96,7 +96,7 @@ function SecureMail() {
           </div>
         </section>
         <section className="text-section mb-100">
-          <h3 className="blueish">Final Thoughts</h3>
+          <h3 className="purplish">Final Thoughts</h3>
           <p>I enjoyed my time at BrightSquid as it gave me an opportunity to solve problems in a creative 
             and iterative manner. The product not only served as an email app, but also as an exchange 
             in which healthcare professionals could network with each other in a secure and compliant way.

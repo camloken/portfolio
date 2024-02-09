@@ -9,6 +9,7 @@ import {
 import { NavHashLink } from 'react-router-hash-link'
 import logo from './assets/loken_logo.svg'
 import Home from './pages/Home'
+import MappingPlatform from './pages/MappingPlatform'
 import WaterMeterApp from './pages/WaterMeterApp'
 import FertilityApp from './pages/FertilityApp'
 import MuseApp from './pages/MuseApp'
@@ -27,9 +28,9 @@ function App() {
           <img src={logo} className="logo" alt="logo" />
           <ul className="nav">
             <li><NavHashLink smooth to="/#home">Home</NavHashLink></li>
-            <li><NavHashLink  smooth to="/#work">Work</NavHashLink></li>
-            <li><NavHashLink  smooth to="/#skills">Skills</NavHashLink></li>
-            <li><NavHashLink  smooth to="/#contact">Contact</NavHashLink></li>
+            <li><NavHashLink smooth to="/#work">Work</NavHashLink></li>
+            <li><NavHashLink smooth to="/#skills">Skills</NavHashLink></li>
+            <li><NavHashLink smooth to="/#contact">Contact</NavHashLink></li>
           </ul>
         </div>
       </div>
@@ -37,6 +38,7 @@ function App() {
         <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/mapping-platform" element={<MappingPlatform />} />
           <Route path="/water-meter-app" element={<WaterMeterApp />} />
           <Route path="/fertility-app" element={<FertilityApp />} />
           <Route path="/muse-app" element={<MuseApp />} />

@@ -28,8 +28,8 @@ function DSM() {
           <h3 className="steel-grey">Project Background</h3>
           <p>Prism is the flagship product of Enverus. Because it was a major component of their web software, 
             the data manager required it's own user interface. Discussions with stakeholders and developers
-            were conducted over a long period of time, which resulted in many design iterations. Because this 
-            was such a complex tool, it was important to simplify the product for end users. 
+            were conducted over a long period of time, which resulted in many design iterations. Being such 
+            a complex tool, it was vitally important to simplify the process for end users. 
           </p>
           <h6>My role and responsibilities on this project included:</h6>
           <ul>
@@ -42,8 +42,8 @@ function DSM() {
           <h3 className="steel-grey">Collaboration</h3>
           <h6>Team meetings were held regularly in order to:</h6>
           <ul>
-            <li>Walk through design iterations and gain feedback from stakeholders and developers</li>
-            <li>Understand what features were required for a minimum viable product</li>
+            <li>Walk through the designs with stakeholders and developers to ensure nothing was missed</li>
+            <li>Understand and prioritize what features were required for a minimum viable product</li>
             <li>Ensure the Enverus brand guidelines were upheld</li>
           </ul>
         </section>

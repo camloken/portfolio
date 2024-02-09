@@ -1,5 +1,6 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
+import MappingTool from '../assets/map4.png'
 import WaterMeterApp from '../assets/water-meter1.svg'
 import FertilityApp from '../assets/fertility3.svg'
 import MuseApp from '../assets/muse5.png'
@@ -25,6 +26,18 @@ function Home() {
           <h4 className="subheader">My Work</h4>
         </div>
         <div className="grid-wrap">
+          <div
+            role="presentation"
+            className="grid-item mapping-platform bg-grey-green"
+            onClick={() => navigate('/mapping-platform')}
+          >
+            <div className="grid-item-description">
+              <h4>Mapping Tool</h4>
+              <p>A web mapping tool for the City of Calgary's website.</p>
+              <button className="grid-button">Case Study</button>
+            </div>
+            <img className="grid-image" src={MappingTool} alt="web mapping tool" />
+          </div>
           <div
             role="presentation"
             className="grid-item water-meter-app bg-purple1"

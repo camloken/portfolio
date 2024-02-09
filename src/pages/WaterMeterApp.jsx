@@ -96,8 +96,8 @@ function WaterMeterApp() {
           <h3 className="purple1">User Flows</h3>
           <p>After accompanying a field worker on visits to multiple job sites, it was evident that
             they followed a very structured work process. Certain criteria needed to be met and tasks were done in 
-            a chronological order before sign off could occur. A user flow was then created to reflect that process.
-            The user flow below was recreated for illustrative purposes.
+            a chronological order before sign off of field reports could occur. A user flow was then created to reflect 
+            that process. The user flow below was recreated for illustrative purposes.
           </p>
         </section>
         <section className="graphic-block transparent">
@@ -108,14 +108,14 @@ function WaterMeterApp() {
         <section className="text-section">
           <h3 className="purple1">Design Implementation</h3>
           <p>After gaining insights from various discussions with the stakeholders, we decided that the app
-            would be designed only for mobile use. Once the personas and main features of the app were identified, 
+            would be designed initially for mobile use. Once the personas and main features of the app were identified, 
             design work could begin.
           </p>
           <h6>I proceeded to work on:</h6>
           <ul>
-            <li>Creating wireframes to identify applicable features and layout</li>
-            <li>Creating high fidelity mockups to illustrate the look and feel of the app</li>
-            <li>Designing detailed layouts for each screen in the user flow</li>
+            <li>Creating wireframes to determine feature placement and app layout</li>
+            <li>Providing high fidelity mockups to illustrate the look and feel of the app</li>
+            <li>Designing detailed screens for each step of in user flow</li>
           </ul>
         </section>
         <section className="graphic-block silver">
