@@ -126,7 +126,7 @@ function Home() {
           <ProgressBar percent={85} title="Javascript" />
           <ProgressBar percent={80} title="Adobe CS" />
           <ProgressBar percent={75} title="Affinity Suite" />
-          <ProgressBar percent={30} title="User Research" />
+          <ProgressBar percent={60} title="User Research" />
         </div>
       </section>
       <section id="contact">
