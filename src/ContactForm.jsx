@@ -1,5 +1,5 @@
 import React, { useRef, useState } from 'react'
-import emailjs from 'emailjs-com'
+import emailjs from '@emailjs/browser'
 import ExclamationCircle from './assets/ExclamationCircle'
 import CheckCircle from './assets/CheckCircle'
 import Loading from './assets/Loading'
@@ -35,7 +35,7 @@ export default function ContactForm() {
     setSendingMessage(true)
     setMessageStatus(null)
 
-    emailjs.sendForm('service_84n7pzp', 'template_1cfchaq', form.current, 'R3tH5-boXFlOQNe3D')
+    emailjs.sendForm('service_611ju5m', 'template_1cfchaq', form.current, 'R3tH5-boXFlOQNe3D')
       .then((result) => {
         // console.log(result, result.text)
         setName('')
