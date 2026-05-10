@@ -95,10 +95,10 @@ function ChatApp() {
         </section>
         <section className="text-section mb-100">
           <h3 className="blue1">Final Thoughts</h3>
-          <p>While working with the company BrightSquid, I had many opportunities to both design and develop products. 
-            The primary focus of my role there was to ensure that products were not only designed with the user in mind,
-            but also that nothing was lost in translation between design and code execution. This app gave me an opportunity
-            to use React Native and learn a new technology I hadn't tried before. 
+          <p>While working with BrightSquid, I had the opportunity to both design and develop products.
+          The primary focus of my role was to ensure that solutions were user-centered while maintaining 
+          fidelity between design intent and implementation. This role also provided the opportunity to 
+          work with React Native, allowing me to learn and apply a technology I had not previously used. 
           </p>
         </section>
       </div>

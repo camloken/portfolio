@@ -84,10 +84,10 @@ function MuseApp() {
         </section>
         <section className="text-section mb-100">
           <h3 className="green2">Final Thoughts</h3>
-          <p>I have seen many apps start out on the wrong foot, resulting in the need for a complete redesign. 
-            However in this case, much of the interface was fairly intuitive. I made adjustments to the styles and layout.
-            The product managers and developers were very receptive to the new design and it was a major improvement 
-            over what they had previously.
+          <p>I have observed many applications begin on the wrong foot, ultimately requiring a complete redesign. 
+          However, in this case, much of the existing interface was already fairly intuitive. My contributions focused on 
+          refining the styles and improving the overall layout. The product managers and development team were highly 
+          receptive to the updated design, which represented a significant improvement over the previous version.
           </p>
         </section>
       </div>

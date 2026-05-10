@@ -97,9 +97,9 @@ function SecureMail() {
         </section>
         <section className="text-section mb-100">
           <h3 className="purplish">Final Thoughts</h3>
-          <p>I enjoyed my time at BrightSquid as it gave me an opportunity to solve problems in a creative 
-            and iterative manner. The product not only served as an email app, but also as an exchange 
-            in which healthcare professionals could network with each other in a secure and compliant way.
+          <p>I enjoyed my time at BrightSquid, as it provided an opportunity to solve problems in a creative 
+          and iterative manner. The product not only functioned as an email application, but also as a secure, 
+          compliant platform enabling healthcare professionals to network and communicate with one another.
           </p>
         </section>
       </div>

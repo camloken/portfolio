@@ -108,9 +108,8 @@ function FertilityClinic() {
         </section>
         <section className="text-section mb-100">
           <h3 className="teal">Final Thoughts</h3>
-          <p>This app only ever reached the prototype stage as the Fertility Clinic decided to prioritize
-            other clinic requirements. Nevertheless, the research and design of this app was an excellent
-            learning opportunity.
+          <p>The app remained at the prototype stage, as the Fertility Clinic chose to prioritize other 
+          operational requirements. Nevertheless, the research and design work provided a valuable learning experience.
           </p>
         </section>
       </div>

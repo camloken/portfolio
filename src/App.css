@@ -12,6 +12,10 @@
   color: var(--purple1);
 }
 
+.purple2 {
+  color: var(--purple2);
+}
+
 .teal {
   color: var(--teal);
 }
@@ -47,6 +51,10 @@
 
 .bg-purple1 {
   background-color: var(--purple1);
+}
+
+.bg-purple2 {
+  background-color: var(--purple2);
 }
 
 .bg-teal {
@@ -483,7 +491,8 @@
   background-color: var(--purple1);
 }
 
-.chat-app .grid-image {
+.chat-app .grid-image,
+.fieldops-app .grid-image {
   padding: 30px 0 0 20px;
   width: 45%;
 }
@@ -494,6 +503,10 @@
 
 .grid-item.chat-app {
   background-color: var(--blue1);
+}
+
+.grid-item.fieldops-app {
+  background-color: var(--purple2);
 }
 
 .grid-button {
@@ -671,6 +684,10 @@
 
 .graphic-block.silver {
   background-color: #d5dce7;
+}
+
+.graphic-block.purple-haze {
+  background-color: #d9d3db;
 }
 
 .graphic-block.tin {

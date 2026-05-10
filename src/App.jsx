@@ -14,6 +14,7 @@ import WaterMeterApp from './pages/WaterMeterApp'
 import FertilityApp from './pages/FertilityApp'
 import MuseApp from './pages/MuseApp'
 import ChatApp from './pages/ChatApp'
+import FieldOpsApp from './pages/FieldOpsApp'
 import SecureMail from './pages/SecureMail'
 import DSM from './pages/DSM'
 import NotFound from './pages/NotFound'
@@ -45,6 +46,7 @@ function App() {
           <Route path="/chat-app" element={<ChatApp />} />
           <Route path="/secure-mail" element={<SecureMail />} />
           <Route path="/prism-data-manager" element={<DSM />} />
+          <Route path="/fieldops-app" element={<FieldOpsApp />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </div>

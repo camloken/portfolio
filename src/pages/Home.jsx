@@ -5,6 +5,7 @@ import WaterMeterApp from '../assets/water-meter1.svg'
 import FertilityApp from '../assets/fertility3.svg'
 import MuseApp from '../assets/muse5.png'
 import ChatApp from '../assets/chat1.png'
+import FieldOpsApp from '../assets/fieldops1.webp'
 import SecureMail from '../assets/securemail3.svg'
 import DSM from '../assets/dsm1.png'
 import ContactForm from '../ContactForm'
@@ -110,6 +111,18 @@ function Home() {
             </div>
             <img className="grid-image" src={DSM} alt="dsm interface" />
           </div>
+          <div
+            role="presentation"
+            className="grid-item fieldops-app"
+            onClick={() => navigate('/fieldops-app')}
+          >
+            <div className="grid-item-description">
+              <h4>Field Ops App</h4>
+              <p>A mobile app for field operators in the oil and gas sector.</p>
+              <button className="grid-button">View Project</button>
+            </div>
+            <img className="grid-image" src={FieldOpsApp} alt="field ops mobile app" />
+          </div>
         </div>
       </section>
       <section className="max-width text-center mb-100">
@@ -122,10 +135,10 @@ function Home() {
           <ProgressBar percent={90} title="Design Systems" />
           <ProgressBar percent={90} title="Figma" />
           <ProgressBar percent={90} title="HTML/CSS" />
+          <ProgressBar percent={85} title="Affinity Suite" />
           <ProgressBar percent={85} title="React" />
           <ProgressBar percent={85} title="Javascript" />
           <ProgressBar percent={80} title="Adobe CS" />
-          <ProgressBar percent={75} title="Affinity Suite" />
           <ProgressBar percent={60} title="User Research" />
         </div>
       </section>
