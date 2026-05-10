@@ -118,7 +118,7 @@ function Home() {
           >
             <div className="grid-item-description">
               <h4>Field Ops App</h4>
-              <p>A mobile app for field operators in the oil and gas sector.</p>
+              <p>A mobile app designed for field operators working in the oil and gas industry.</p>
               <button className="grid-button">View Project</button>
             </div>
             <img className="grid-image" src={FieldOpsApp} alt="field ops mobile app" />
@@ -135,10 +135,10 @@ function Home() {
           <ProgressBar percent={90} title="Design Systems" />
           <ProgressBar percent={90} title="Figma" />
           <ProgressBar percent={90} title="HTML/CSS" />
-          <ProgressBar percent={85} title="Affinity Suite" />
+          <ProgressBar percent={85} title="Affinity Studio" />
           <ProgressBar percent={85} title="React" />
           <ProgressBar percent={85} title="Javascript" />
-          <ProgressBar percent={80} title="Adobe CS" />
+          <ProgressBar percent={80} title="Adobe Creative Suite" />
           <ProgressBar percent={60} title="User Research" />
         </div>
       </section>

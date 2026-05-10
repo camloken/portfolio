@@ -53,18 +53,17 @@ function WaterMeterApp() {
         </section>
         <section className="text-section">
           <h3 className="purple1">Persona Development</h3>
-          <p className="mt-0">Before starting the project, it was important to identify what types of people would 
-            be using the app. While this may seem straight forward, it became clear 
-            after multiple stakeholder discussions that field workers were not the only ones that 
-            would be using the app. The personas below were recreated from memory and are simply 
-            intended to provide a quick overview.
+          <p className="mt-0">Before starting the project, it was important to identify the types of users who would be
+            interacting with the application. While this may seem straightforward, it became clear through multiple stakeholder
+            discussions that field workers were not the only user group. The personas below have been recreated from memory
+            and are intended to provide a high-level overview.
           </p>
 
-          <h6>There were three types of users that were identified:</h6>
+          <h6>Three different user groups were identified</h6>
           <ul>
-            <li>Field workers (water meter workers in the field on various job sites)</li>
-            <li>Waterworks managers (mostly in the office but occasionally on-site)</li>
-            <li>Customer support representatives (in office providing support for field workers and customers)</li>
+            <li>Field workers (water meter technicians working across various job sites)</li>
+            <li>Waterworks managers (primarily office-based, with occasional on-site involvement)</li>
+            <li>Customer support representatives (office-based, supporting both field workers and customers)</li>
           </ul>
         </section>
         <section className="graphic-block purple-haze">
@@ -94,10 +93,10 @@ function WaterMeterApp() {
 
         <section className="text-section">
           <h3 className="purple1">User Flows</h3>
-          <p>After accompanying a field worker on visits to multiple job sites, it was evident that
-            they followed a very structured work process. Certain criteria needed to be met and tasks were done in 
-            a chronological order before sign off of field reports could occur. A user flow was then created to reflect 
-            that process. The user flow below was recreated for illustrative purposes.
+          <p>After accompanying a field worker on visits to multiple job sites, it became clear that they followed a
+            highly structured workflow. Specific criteria had to be met, and tasks were completed in a defined
+            chronological order before field reports could be signed off. A user flow was then developed to accurately
+            reflect this process. The flow below has been recreated for illustrative purposes.
           </p>
         </section>
         <section className="graphic-block transparent">
@@ -107,15 +106,15 @@ function WaterMeterApp() {
         </section>
         <section className="text-section">
           <h3 className="purple1">Design Implementation</h3>
-          <p>After gaining insights from various discussions with the stakeholders, we decided that the app
-            would be designed initially for mobile use. Once the personas and main features of the app were identified, 
-            design work could begin.
+          <p>After gathering insights from discussions with stakeholders, it was decided that the application
+            would initially be designed for mobile use. Once the personas and core features were defined,
+            the design phase began.
           </p>
-          <h6>I proceeded to work on:</h6>
+          <h6>I focused on:</h6>
           <ul>
-            <li>Creating wireframes to determine feature placement and app layout</li>
-            <li>Providing high fidelity mockups to illustrate the look and feel of the app</li>
-            <li>Designing detailed screens for each step of in user flow</li>
+            <li>Creating wireframes to determine feature placement and overall application layout</li>
+            <li>Developing high-fidelity mockups to communicate the visual design and user experience</li>
+            <li>Designing detailed screens for each step of the user flow</li>
           </ul>
         </section>
         <section className="graphic-block silver">
@@ -142,9 +141,10 @@ function WaterMeterApp() {
         </section>
         <section className="text-section mb-100">
           <h3 className="purple1">Post Production</h3>
-          <p>I've worked with the City of Calgary in various contract roles in the past. This one was both 
-            challenging and rewarding. After handing off my contract deliverables, I talked to a former 
-            City colleague years later and he mentioned that the app was completed and was executed very well.
+          <p>I have worked with the City of Calgary in various contract roles over the years. This engagement
+            was both challenging and rewarding. After completing and handing off my deliverables, I later spoke with
+            a former City colleague who shared that the application had been completed and successfully implemented,
+            with a very positive reception.
           </p>
         </section>
       </div>

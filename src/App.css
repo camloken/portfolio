@@ -804,7 +804,7 @@ input:-webkit-autofill {
 }
 
 .progress-color {
-  background-color: #a29cb6;
+  background-color: #769ec6; /* #a29cb6;*/
   border-radius: 6px;
   height: 100%;
 }

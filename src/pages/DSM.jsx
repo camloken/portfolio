@@ -86,9 +86,10 @@ function DSM() {
         </section>
         <section className="text-section mb-100">
           <h3 className="steel-grey">Final Thoughts</h3>
-          <p>It is hard to ignore the important role the data manager served in improving workflows. It allowed users 
-            to merge their data with the data sets of Prism. Despite being a lengthy process, the end product has been 
-            well received by Enverus customers. I am proud to have contributed to it's success.
+          <p>It is difficult to overlook the importance of the Data Manager feature in improving workflows.
+            It enabled users to merge their data with Prism datasets, streamlining data integration and analysis. Despite being
+            a lengthy process, the final product has been well received by Enverus customers. I am proud to have
+            contributed to its success.
           </p>
         </section>
       </div>

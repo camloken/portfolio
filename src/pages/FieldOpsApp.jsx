@@ -19,7 +19,7 @@ function FieldOpsApp() {
           <div className="jumbo-description">
             <div>
               <h3>Field Ops App</h3>
-              <p>A mobile app for field operators in the oil and gas sector.</p>
+              <p>A mobile app designed for field operators working in the oil and gas industry.</p>
             </div>
           </div>
           <img className="jumbo-image" src={Mock1} alt="water meter mobile app" />

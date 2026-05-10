@@ -32,11 +32,11 @@ function WaterMeterApp() {
       <div className="flex-column flex-align-center">
         <section className="text-section">
           <h3 className="grey-green">Project Background</h3>
-          <p>The purpose of the Web Mapping Tool was to highlight the unique information
-            the City of Calgary had access to that other map providers like Google did not offer. 
-            The tool allowed users to search for City specific features such as dog parks, traffic cameras,
-            road conditions, parking bans, lot easements, picnic areas, City leasure centres, and other City services. 
-            The mapping tool launched in a new browser tab after users clicked a link from the City of Calgary's website.
+          <p>The purpose of the Web Mapping Tool was to showcase the unique geographic and municipal data available 
+          through the City of Calgary that was not offered by other mapping providers such as Google. 
+          The tool enabled users to search for city-specific features including dog parks, traffic cameras, road conditions, 
+          parking bans, lot easements, picnic areas, leisure centres, and other municipal services. The mapping 
+          application launched in a separate browser tab when users accessed it through the City of Calgary website.
           </p>
           <h6>My responsibilities on the project were:</h6>
           <ul>
@@ -51,31 +51,34 @@ function WaterMeterApp() {
         <section className="text-section">
           <h3 className="grey-green">Heuristic Evaluation</h3>
           <p className="mt-0">A heuristic evaluation was conducted for the purposes of quickly improving 
-            the City of Calgary's existing mapping tool. A report was prepared and given to the development team identifying 
-            the heuristic that was broken and ranked according to low, medium and high priority.
+            the City of Calgary's existing mapping tool. A detailed report was then prepared for the development team, 
+            outlining violated heuristics and prioritizing issues according to low, medium, and high severity levels.
           </p>
-          <h6>Some of the main problems identified were:</h6>
+          <h6>Some of the primary usability issues identified included:</h6>
           <ul>
-            <li>Users could only search by address, not by the locations name (Affected Heuristic: 
-              Match Between System and Real World)
+            <li>
+              Users could only search by address rather than by location name
+              (Affected Heuristic: Match Between System and the Real World)
             </li>
-            <li>Navigation tabs moved to the bottom of the screen after performing a search 
+            <li>
+              Navigation tabs shifted to the bottom of the screen after performing a search
               (Affected Heuristic: User Control and Freedom)
             </li>
-            <li>Clicking the "Locate Me" button resulted in long wait times, and no spinner appeared, 
-              leaving users thinking the feature was broken (Affected Heuristic: Visability of System Status)
+            <li>
+              Selecting the “Locate Me” feature resulted in long wait times without a loading indicator, 
+              causing users to believe the feature was broken (Affected Heuristic: Visibility of System Status)
             </li>
           </ul>
         </section>
-        
+
         <section className="graphic-block dust">
           <div className="flex-row max-width-800 m-auto">
             <div className="mr-50 text-left">
               <h3 className="grey-green mt-0">Competitive Analysis</h3>
-              <p>After conducting a heuristic evaluation work on the new web mapping tool 
-                could begin. A competitive analysis was done in order to ensure that the City's mapping tool matched
-                users expectations of other mapping applications. Additionally, we wanted to identify features that were 
-                unique to the City of Calgary in order to have a competitive advantage. 
+              <p>After conducting a heuristic evaluation work on the new web mapping tool could begin.
+                A competitive analysis was done in order to ensure that the City's mapping tool matched users expectations
+                of other mapping applications. Additionally, we wanted to identify features that were unique to the
+                City of Calgary in order to have a competitive advantage.
               </p>
             </div>
             <Zoom zoomMargin={30}>
@@ -137,18 +140,18 @@ function WaterMeterApp() {
           </div>
         </section>
 
-
         <section className="text-section">
           <h3 className="grey-green">User Flow</h3>
-          <p>Upon completion of the research, it was time to work out a basic flow that satisfied some of the use cases.
-            As there were five use cases, it was not possible to cover all of the scenerios in the first version. The basic
-            flow below served as a starting point that could be built upon later.
+          <p>Upon completion of the research phase, the next step was to develop a foundational user flow that addressed
+            several of the identified use cases. Since there were five primary use cases, it was not feasible to
+            accommodate every scenario in the initial version. The flow below served as a foundational framework
+            that could be expanded upon in future iterations.
           </p>
-          <h6>Some of the main features were:</h6>
+          <h6>Some of the core features included</h6>
            <ul>
-            <li>Search (location name or address)</li>
-            <li>Browse (city specific services)</li>
-            <li>Directions (to and from locations)</li>
+            <li>Search functionality by location name or address</li>
+            <li>Browsing city-specific services and points of interest</li>
+            <li>Directions to and from selected locations</li>
           </ul>
         </section>
 
@@ -159,13 +162,15 @@ function WaterMeterApp() {
         </section>
         <section className="text-section">
           <h3 className="grey-green">Design Implementation</h3>
-          <p>The design process started out with rough sketches. They may not be pretty, but the important thing was 
-            to get the ideas down on paper. The sketches were intended to be for my reference and not anyone elses. 
-            Wireframes were then prepared for the purpose of general layout and feature placement. The wireframes were 
-            presented to the UX team for design feedback, and changes were implemented accordingly. Afterwards, 
-            high fidelity mockups were created and tested internally. The examples below highlight the process starting from
-            the intial sketches and progressing from low to high fidelity designs.
-
+          <p>The design process began with rough sketches. While they were not visually refined, the primary goal was to 
+            quickly capture ideas and explore concepts on paper. These sketches were intended primarily for personal reference 
+            during the early ideation phase. <br></br><br></br>
+            Wireframes were then created to establish the general layout, information hierarchy, 
+            and feature placement. The wireframes were presented to the UX team for feedback, and revisions were implemented based 
+            on collaborative discussion and design review.<br></br><br></br>
+            Following the wireframing stage, high-fidelity mockups were developed 
+            and tested internally. The examples below illustrate the progression of the design process, beginning with the initial 
+            sketches and evolving from low-fidelity concepts to polished high-fidelity designs.
           </p>
         </section>
         <section className="graphic-block silver">
@@ -192,13 +197,13 @@ function WaterMeterApp() {
         </section>
         <section className="text-section mb-100">
           <h3 className="grey-green">Usability Testing</h3>
-          <p>In my experience, designers should not conduct their own usability tests due to the potential of bias
-            impacting the process. In this case, I asked an internal colleague to conduct the tests. 
-            I created a paper prototype and provided a couple scenerios that I wanted the users to try and complete. 
-            The testers were city employees who had no previous exposure to the designs. 
+          <p>In my experience, designers should avoid conducting their own usability tests, as personal involvement
+            in the design process can introduce unintended bias. In this case, I asked an internal colleague to facilitate
+            the testing sessions. I created a paper prototype and prepared several user scenarios for participants to complete.
+            The testers were City employees with no prior exposure to the designs, allowing for more objective and unbiased feedback. 
           </p>
-          <p>Afterwards, my colleague and I discussed the findings. Overall, the design worked very well with
-            just a few small changes required for some of the labels.
+          <p>After the sessions, my colleague and I reviewed and discussed the findings. Overall, the design tested very well,
+            with only a few minor adjustments required to improve the clarity of certain labels.
           </p>
         </section>
       </div>
