@@ -26,39 +26,41 @@ function DSM() {
       <div className="flex-column flex-align-center">
         <section className="text-section">
           <h3 className="steel-grey">Project Background</h3>
-          <p>Prism is the flagship product of Enverus. Because it was a major component of their web software, 
-            the data manager required it's own user interface. Discussions with stakeholders and developers
-            were conducted over a long period of time, which resulted in many design iterations. Being such 
-            a complex tool, it was vitally important to simplify the process for end users. 
+          <p>
+            Prism is the flagship product of Enverus. As a core component of their web platform, the Data Manager required
+            its own dedicated user interface. Discussions with stakeholders and developers took place over an extended period,
+            resulting in multiple design iterations. Given the complexity of the tool, it was essential to simplify the
+            workflow as much as possible for end users.
           </p>
           <h6>My role and responsibilities on this project included:</h6>
           <ul>
-            <li>Regularly collaborating with team members</li>
-            <li>Facilitating in gathering feature requirements</li>
-            <li>Designing high fidelity mockups</li>
+            <li>Regular collaboration with cross-functional team members</li>
+            <li>Paticipating in feature requirement gathering sessions</li>
+            <li>Designing high-fidelity mockups</li>
           </ul>
         </section>
         <section className="text-section">
           <h3 className="steel-grey">Collaboration</h3>
-          <h6>Team meetings were held regularly in order to:</h6>
+          <h6>Team meetings were held regularly to:</h6>
           <ul>
-            <li>Walk through the designs with stakeholders and developers to ensure nothing was missed</li>
-            <li>Understand and prioritize what features were required for a minimum viable product</li>
-            <li>Ensure the Enverus brand guidelines were upheld</li>
+            <li>Review designs with stakeholders and developers to ensure all requirements were captured</li>
+            <li>Understand and prioritize features for the minimum viable product (MVP)</li>
+            <li>Ensure alignment with Enverus brand guidelines</li>
           </ul>
         </section>
 
         <section className="text-section">
           <h3 className="steel-grey">Design and Layout</h3>
-          <p>In order to test a product's viability, software features are often prototyped by developers. In this 
-            case, the developer prototype served as a starting point for the final product. However, in order 
-            to create an intuitive and comprehensive product, the design had to be refactored many times. This ultimately 
-            improved the usability and aesthetics of the data manager.
+          <p>
+            To evaluate product viability, software features are often initially prototyped by developers. In this case,
+            the developer-built prototype served as the starting point for the final product. However, to create a more
+            intuitive and comprehensive experience, the design required multiple iterations and refinements. This process
+            ultimately improved both the usability and visual design of the Data Manager.
           </p>
-          <h6>Some of the things I worked on were:</h6>
+          <h6>Some of the areas I worked on included:</h6>
           <ul>
-            <li>A complete redesign of the interface</li>
-            <li>Determining the style, layout, and feature placement</li>
+            <li>A comprehensive redesign of the interface</li>
+            <li>Defining the visual style, layout, and feature hierarchy</li>
             <li>Providing detailed mockups for the development team</li>
           </ul>
         </section>

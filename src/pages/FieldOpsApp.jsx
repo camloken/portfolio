@@ -55,13 +55,13 @@ function FieldOpsApp() {
         <section className="text-section">
           <h3 className="purple2">Design Implementation</h3>
           <p>
-            After identifying the business goals, user needs, and technical constraints of the project,
-            work was organized into smaller, manageable tasks and tracked within an online project management system.
-            Design work then began, with many features being refined or redesigned based on user feedback.<br></br><br></br>
-            Accessibility considerations were incorporated to support low-vision users, and a dark mode was introduced
-            to accommodate field operators working in low-light conditions during early mornings and evenings.
-            Most importantly, the application was designed to help operators complete tasks quickly and efficiently,
-            as they often have limited time while traveling between sites.
+            After identifying the business goals, user needs, and technical constraints of the project, work was organized 
+            into smaller, manageable tasks. Design work then began, with many features being refined or redesigned based on 
+            stakeholder and user feedback.<br></br><br></br>
+            Accessibility considerations were incorporated to support low-vision users, and the dark mode experience was enhanced
+            to better accommodate field operators working in low-light conditions during early mornings and evenings.
+            Workflows were optimized to help operators complete tasks quickly and efficiently, as they often had
+            limited time while traveling between sites.
           </p>
           <h6>Key areas of focus included:</h6>
           <ul>

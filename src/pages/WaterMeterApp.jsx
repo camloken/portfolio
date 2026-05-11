@@ -29,10 +29,10 @@ function WaterMeterApp() {
       <div className="flex-column flex-align-center">
         <section className="text-section">
           <h3 className="purple1">Project Background</h3>
-          <p>The Water Meter App was the first step towards
-            moving service workers from paper reporting to a fully mobile app. 
-            The app allowed users to create, submit and leave feedback in their database for digital reporting. 
-            Once a report was submitted, managers could then review them in a separate desktop application.
+          <p>The Water Meter App was an initial step toward transitioning service workers from paper-based reporting
+            to a fully mobile workflow. The application allowed users to create, submit, and provide feedback through a
+            centralized digital reporting system. Once reports were submitted, managers could review them through a
+            separate desktop application.
           </p>
           <h6>My role and responsibilities:</h6>
           <ul>
@@ -59,7 +59,7 @@ function WaterMeterApp() {
             and are intended to provide a high-level overview.
           </p>
 
-          <h6>Three different user groups were identified</h6>
+          <h6>Three different user groups were identified:</h6>
           <ul>
             <li>Field workers (water meter technicians working across various job sites)</li>
             <li>Waterworks managers (primarily office-based, with occasional on-site involvement)</li>
@@ -110,7 +110,7 @@ function WaterMeterApp() {
             would initially be designed for mobile use. Once the personas and core features were defined,
             the design phase began.
           </p>
-          <h6>I focused on:</h6>
+          <h6>I primarily focused on:</h6>
           <ul>
             <li>Creating wireframes to determine feature placement and overall application layout</li>
             <li>Developing high-fidelity mockups to communicate the visual design and user experience</li>

@@ -49,15 +49,16 @@ function MuseApp() {
 
         <section className="text-section">
           <h3 className="green2">Design Refactoring</h3>
-          <p>The developers were reusing many components from existing apps which impacted the look and feel of the design. 
-            While this can save a lot of time and money, much of the existing design looked dated and not on brand. 
-            Updates were needed to improve the style and usability.
+          <p>The development team reused many components from existing applications, which influenced the overall look and feel
+            of the product. While this approach helped reduce development time and costs, much of the existing interface appeared
+            dated and lacked alignment with the brand. As a result, design updates were needed to improve both the visual style
+            and overall usability.
           </p>
           <h6>I proceeded to work on:</h6>
           <ul>
-            <li>Redesigning some of the existing layouts</li>
-            <li>Determining what features and components needed to be refactored</li>
-            <li>Creating high fidelity mockups to illustrate the look and feel of the app</li>
+            <li>Redesigning existing layouts to improve usability and visual consistency</li>
+            <li>Identifying features and components that required refactoring</li>
+            <li>Creating high-fidelity mockups to communicate the visual experience and flow of the app</li>
           </ul>
         </section>
         <section className="graphic-block green-grey">

@@ -27,19 +27,19 @@ function SecureMail() {
       <div className="flex-column flex-align-center">
         <section className="text-section">
           <h3 className="purplish">Project Background</h3>
-          <p>I worked for a company called BrightSquid who's primary focus was a product called Secure-Mail 
-            (later named Secure Health Exchange). A major concern in the healthcare industry is patient privacy,
-            but much more than that, HIPAA compliance is a requirement. Gmail does not comply with these standards
-            so many healthcare practitioners are unable to easily communicate via email. Secure Health Exchange offered
-            a way for practitioners to communicate and share documents in a safe and compliant manner. 
+          <p>I worked for a company called BrightSquid, whose primary product was Secure-Mail (later rebranded as Secure Health
+            Exchange). A key concern in the healthcare industry is patient privacy; however, beyond that, HIPAA compliance is a
+            strict requirement. Standard email providers such as Gmail do not meet these regulatory standards, making it
+            difficult for many healthcare practitioners to communicate securely. Secure Health Exchange provided a compliant
+            platform that enabled healthcare professionals to communicate and securely share documents in a safe, regulated manner. 
           </p>
           <h6>My role and responsibilities on this project included:</h6>
           <ul>
-            <li>Team meetings and collaboration</li>
-            <li>Provide user flow diagrams</li>
-            <li>Analyze research in order to improve design usability</li>
-            <li>Create wireframes and high fidelity mockups</li>
-            <li>Provide frontend code and develop features for the app</li>
+            <li>Participating in team meetings and cross-functional collaboration</li>
+            <li>Creating user flow diagrams to support feature planning and design direction</li>
+            <li>Analyzing research findings to improve overall usability and user experience</li>
+            <li>Developing wireframes and high-fidelity mockups</li>
+            <li>Contributing frontend code and implementing application features</li>
           </ul>
         </section>
         <section className="text-section">
@@ -55,16 +55,17 @@ function SecureMail() {
 
         <section className="text-section">
           <h3 className="purplish">Design Refactoring</h3>
-          <p>The intitial product had an inconsistent look and feel, and areas of the app were not intuitive. Various
-            components needed to be refactored so that both the style and behaviour aligned throughout the app.
-            This was an iterative process that happened over time, and gradually the product began to improve.
+          <p>The initial product had an inconsistent look and feel, and several areas of the application were not intuitive.
+            Various components needed to be refactored so that both the styling and behavior were consistent across the product.
+            This was an iterative process that took place over time, with the product gradually improving through ongoing
+            refinements.
           </p>
-          <h6>Some of the things I worked on were:</h6>
+          <h6>Some of the areas I worked on included:</h6>
           <ul>
-            <li>Redesigning the layout and interface to make it more intuitive</li>
-            <li>Ensuring the features and components within the app were consistent</li>
-            <li>Making small improvements to the app over time</li>
-            <li>Providing high fidelity mockups to illustrate the look and feel of the app</li>
+            <li>Redesigning layouts and interface elements to improve intuitiveness</li>
+            <li>Ensuring consistency across features and components within the application</li>
+            <li>Making incremental improvements to the product over time</li>
+            <li>Producing high-fidelity mockups to communicate the intended look and feel of the application</li>
           </ul>
         </section>
         <section className="graphic-block silver">
