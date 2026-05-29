@@ -28,10 +28,11 @@ function FieldOpsApp() {
       <div className="flex-column flex-align-center">
         <section className="text-section">
           <h3 className="purple2">Project Background</h3>
-          <p>This project involved a redesign of an existing application used by field operators in their day-to-day responsibilities.
-              To meet oil and gas compliance standards, regular inspections must be conducted on wells, equipment, and facilities.
-              Field Ops enables operators to complete these inspections in offline environments when necessary, with data efficiently synchronized to the server once connectivity is restored for auditing purposes.
-              The application was owned by AbaData and was white-labeled for individual companies, with support for both light and dark display modes.
+          <p>This project involved a redesign of an existing application used by field operators in their day-to-day
+            responsibilities.To meet oil and gas compliance standards, regular inspections must be conducted on wells, equipment,
+            and facilities. Field Ops enables operators to complete these inspections in offline environments when necessary, with
+            data efficiently synchronized to the server once connectivity is restored for auditing purposes. The application was
+            owned by AbaData and was white-labeled for individual companies, with support for both light and dark display modes.
           </p>
           <h6>My Role and Responsibilities:</h6>
           <ul>
@@ -55,9 +56,9 @@ function FieldOpsApp() {
         <section className="text-section">
           <h3 className="purple2">Design Implementation</h3>
           <p>
-            After identifying the business goals, user needs, and technical constraints of the project, work was organized 
-            into smaller, manageable tasks. Design work then began, with many features being refined or redesigned based on 
-            stakeholder and user feedback.<br></br><br></br>
+            After identifying the business goals, user needs, and technical constraints of the project, work was organized
+            into smaller, manageable tasks. Design work then began, with many features being refined or redesigned based on
+            stakeholder and user feedback.<br /><br />
             Accessibility considerations were incorporated to support low-vision users, and the dark mode experience was enhanced
             to better accommodate field operators working in low-light conditions during early mornings and evenings.
             Workflows were optimized to help operators complete tasks quickly and efficiently, as they often had
@@ -106,10 +107,10 @@ function FieldOpsApp() {
         <section className="text-section mb-100">
           <h3 className="purple2">Final Thoughts</h3>
           <p> During my time at AbaData, I worked on several different SaaS products. Field Ops was both a challenging
-          and rewarding project, as it involved a variety of technical and user-focused considerations. Through many 
-          iterations and close collaboration with stakeholders, subject matter experts, and the development team, 
-          the final designs were very well received. Great design is often the result of thoughtful iteration
-          and strong collaboration, and I greatly appreciated the teamwork that contributed to the success of this project.
+            and rewarding project, as it involved a variety of technical and user-focused considerations. Through many
+            iterations and close collaboration with stakeholders, subject matter experts, and the development team,
+            the final designs were very well received. Great design is often the result of thoughtful iteration
+            and strong collaboration, and I greatly appreciated the teamwork that contributed to the success of this project.
           </p>
         </section>
       </div>
