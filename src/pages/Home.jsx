@@ -23,81 +23,21 @@ function Home() {
         </p>
       </section>
       <section id="work" className="max-width mb-100">
-        <div className=" text-center">
+        <div className="text-center">
           <h4 className="subheader">My Work</h4>
         </div>
         <div className="grid-wrap">
           <div
             role="presentation"
-            className="grid-item mapping-platform bg-grey-green"
-            onClick={() => navigate('/mapping-platform')}
+            className="grid-item fieldops-app"
+            onClick={() => navigate('/fieldops-app')}
           >
             <div className="grid-item-description">
-              <h4>Mapping Tool</h4>
-              <p>A web mapping tool for the City of Calgary's website.</p>
-              <button className="grid-button">Case Study</button>
-            </div>
-            <img className="grid-image" src={MappingTool} alt="web mapping tool" />
-          </div>
-          <div
-            role="presentation"
-            className="grid-item water-meter-app bg-purple1"
-            onClick={() => navigate('/water-meter-app')}
-          >
-            <div className="grid-item-description">
-              <h4>Water Meter App</h4>
-              <p>A mobile app for the City of Calgary's water meter management.</p>
+              <h4>Field Ops App</h4>
+              <p>A mobile app designed for field operators working in the oil and gas industry.</p>
               <button className="grid-button">View Project</button>
             </div>
-            <img className="grid-image" src={WaterMeterApp} alt="water meter mobile app" />
-          </div>
-          <div
-            role="presentation"
-            className="grid-item fertility-app"
-            onClick={() => navigate('/fertility-app')}
-          >
-            <div className="grid-item-description">
-              <h4>Fertility Clinic</h4>
-              <p>A tablet and desktop app for managing the Fertility Clinic patients.</p>
-              <button className="grid-button">View Project</button>
-            </div>
-            <img className="grid-image" src={FertilityApp} alt="fertility clinic app" />
-          </div>
-          <div
-            role="presentation"
-            className="grid-item muse-app"
-            onClick={() => navigate('/muse-app')}
-          >
-            <div className="grid-item-description">
-              <h4>Muse App</h4>
-              <p>A web app for analyzing energy investments.</p>
-              <button className="grid-button">View Project</button>
-            </div>
-            <img className="grid-image" src={MuseApp} alt="Muse app" />
-          </div>
-          <div
-            role="presentation"
-            className="grid-item chat-app"
-            onClick={() => navigate('/chat-app')}
-          >
-            <div className="grid-item-description">
-              <h4>Secure Chat</h4>
-              <p>A mobile app for sending secure texts within a healthcare network.</p>
-              <button className="grid-button">View Project</button>
-            </div>
-            <img className="grid-image" src={ChatApp} alt="secure chat mobile app" />
-          </div>
-          <div
-            role="presentation"
-            className="grid-item secure-mail"
-            onClick={() => navigate('/secure-mail')}
-          >
-            <div className="grid-item-description">
-              <h4>Secure Health Exchange</h4>
-              <p>A web app for sending secure emails for healthcare workers.</p>
-              <button className="grid-button">View Project</button>
-            </div>
-            <img className="grid-image" src={SecureMail} alt="Mock of secure mail app" />
+            <img className="grid-image" src={FieldOpsApp} alt="field ops mobile app" />
           </div>
           <div
             role="presentation"
@@ -113,15 +53,75 @@ function Home() {
           </div>
           <div
             role="presentation"
-            className="grid-item fieldops-app"
-            onClick={() => navigate('/fieldops-app')}
+            className="grid-item secure-mail"
+            onClick={() => navigate('/secure-mail')}
           >
             <div className="grid-item-description">
-              <h4>Field Ops App</h4>
-              <p>A mobile app designed for field operators working in the oil and gas industry.</p>
+              <h4>Secure Health Exchange</h4>
+              <p>A web app for sending secure emails for healthcare workers.</p>
               <button className="grid-button">View Project</button>
             </div>
-            <img className="grid-image" src={FieldOpsApp} alt="field ops mobile app" />
+            <img className="grid-image" src={SecureMail} alt="Mock of secure mail app" />
+          </div>
+          <div
+            role="presentation"
+            className="grid-item chat-app"
+            onClick={() => navigate('/chat-app')}
+          >
+            <div className="grid-item-description">
+              <h4>Secure Chat</h4>
+              <p>A mobile app for sending secure texts within a healthcare network.</p>
+              <button className="grid-button">View Project</button>
+            </div>
+            <img className="grid-image" src={ChatApp} alt="secure chat mobile app" />
+          </div>
+          <div
+            role="presentation"
+            className="grid-item muse-app"
+            onClick={() => navigate('/muse-app')}
+          >
+            <div className="grid-item-description">
+              <h4>Muse App</h4>
+              <p>A web app for analyzing energy investments.</p>
+              <button className="grid-button">View Project</button>
+            </div>
+            <img className="grid-image" src={MuseApp} alt="Muse app" />
+          </div>
+          <div
+            role="presentation"
+            className="grid-item fertility-app"
+            onClick={() => navigate('/fertility-app')}
+          >
+            <div className="grid-item-description">
+              <h4>Fertility Clinic</h4>
+              <p>A tablet and desktop app for managing the Fertility Clinic patients.</p>
+              <button className="grid-button">View Project</button>
+            </div>
+            <img className="grid-image" src={FertilityApp} alt="fertility clinic app" />
+          </div>
+          <div
+            role="presentation"
+            className="grid-item water-meter-app bg-purple1"
+            onClick={() => navigate('/water-meter-app')}
+          >
+            <div className="grid-item-description">
+              <h4>Water Meter App</h4>
+              <p>A mobile app for the City of Calgary's water meter management.</p>
+              <button className="grid-button">View Project</button>
+            </div>
+            <img className="grid-image" src={WaterMeterApp} alt="water meter mobile app" />
+          </div>
+          <div
+            role="presentation"
+            className="grid-item mapping-platform bg-grey-green"
+            onClick={() => navigate('/mapping-platform')}
+          >
+            <div className="grid-item-description">
+              <h4>Mapping Tool</h4>
+              <p>A web mapping tool for the City of Calgary's website.</p>
+              <button className="grid-button">Case Study</button>
+            </div>
+            <img className="grid-image" src={MappingTool} alt="web mapping tool" />
           </div>
         </div>
       </section>
