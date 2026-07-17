@@ -1,12 +1,6 @@
 import React from 'react'
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-  // Link,
-  // NavLink,
-} from 'react-router-dom'
-import { NavHashLink } from 'react-router-hash-link'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import { HashLink } from 'react-router-hash-link'
 import logo from './assets/loken_logo.svg'
 import Home from './pages/Home'
 import MappingPlatform from './pages/MappingPlatform'
@@ -28,10 +22,10 @@ function App() {
         <div className="topbar max-width">
           <img src={logo} className="logo" alt="logo" />
           <ul className="nav">
-            <li><NavHashLink smooth to="/#home">Home</NavHashLink></li>
-            <li><NavHashLink smooth to="/#work">Work</NavHashLink></li>
-            <li><NavHashLink smooth to="/#skills">Skills</NavHashLink></li>
-            <li><NavHashLink smooth to="/#contact">Contact</NavHashLink></li>
+            <li><HashLink smooth to="/#home">Home</HashLink></li>
+            <li><HashLink smooth to="/#work">Work</HashLink></li>
+            <li><HashLink smooth to="/#skills">Skills</HashLink></li>
+            <li><HashLink smooth to="/#contact">Contact</HashLink></li>
           </ul>
         </div>
       </div>
@@ -57,10 +51,8 @@ function App() {
 
 function WrappedApp() {
   return (
-    <Router>
-
-        <App />
-
+    <Router future={{ v7_startTransition: true, v7_relativeSplatPath: true }}>
+      <App />
     </Router>
   )
 }
